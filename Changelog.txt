@@ -1,0 +1,5 @@
+## v4.0 - 2026-09-22
+- Added GitHub-based auto-update: the tool now checks for new versions on open and lets you know when one's available.
+- Added a "Check for Updates" button and a "Download Fresh Copy" button to the About screen, so you can check manually or grab a known-good copy any time.
+- Updates now save through a normal Windows Save As dialog - you pick where the new version goes, just like saving any other file. Your current copy is never touched or deleted.
+- The About screen's version line is now live instead of a fixed label from an older release.

@@ -1,3 +1,16 @@
+## v4.2 - 2026-09-24
+- Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
+- One password now protects every sheet in every tool.
+- Corrected three spelling mistakes in a column heading and the help text.
+- Fixed: Operating Hours / Day and Operating Days / Week no longer accept 0 (it produced #DIV/0! errors on the Pump Savings sheet); the entry is now rejected with the existing message.
+- The workbook's file name no longer ends in _ML (Belimo Energy Valve Coil Estimator.xlsm). Automatic updates and Download Fresh Copy fetch it under the new name.
+
+## v4.1 - 2026-09-23
+- Fixed: Actual and Future Delta-T are now matched to the six Delta-T scenarios the results use (4 to 14 F in steps of 2). An entry such as 7 or 13 is adjusted to the nearest valid value and you are told; previously it silently showed another scenario's numbers, and an Actual below 4 showed errors.
+- Fixed: the Min load point (D) now counts its hours, so annual operating hours stay correct when A + B + C total less than 100%. The check only shows an error when they total more than 100%.
+- Fixed: the homes-equivalent figure now uses the 12,258 kWh per home stated in its help text (it was using about 10,300).
+- Fixed: the heading "Annual Energy Savings for changing Delta T from 6. to 12." no longer has a stray period.
+
 ## v4.0 - 2026-09-22
 - Added GitHub-based auto-update: the tool now checks for new versions on open and lets you know when one's available.
 - Added a "Check for Updates" button and a "Download Fresh Copy" button to the About screen, so you can check manually or grab a known-good copy any time.

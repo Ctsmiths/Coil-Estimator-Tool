@@ -1,3 +1,7 @@
+## v4.3 - 2026-09-24
+- You are now told when a newer version exists: when you open the tool, a message offers to install it (Yes downloads and installs it, No carries on). You are asked only once for each new version; Check for Updates on the About screen is always there.
+- Fixed: on a PC whose regional settings use a comma for decimals (for example Spanish, Portuguese or French), Check for Updates could keep offering the version you already had.
+
 ## v4.2 - 2026-09-24
 - Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
 - One password now protects every sheet in every tool.

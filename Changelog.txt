@@ -1,3 +1,10 @@
+## v4.4 - 2026-09-29
+- Fixed: the Design Coil Load on the Home tab now drives the Pump Savings and Results tabs and the Energy Valve model choice. Before, it only changed the Flow Curves tab, so savings were always shown for a 310 GPM coil.
+- Fixed: the Delta-T slider on the Results tab could stop changing the savings (a Design Delta-T above 12 F left its upper clicks on the 14 F figures) or show #N/A (an Actual Delta-T of 4 F). It now stays within the six scenarios and follows the Delta-T inputs on the Home tab.
+- Help icons: 44 new (i) icons on the Home, Pump Savings, Results and Charts tabs explain nearly every input and result, in English, Spanish, Portuguese and French.
+- Corrected the Minimum Pump Head help: its value is fixed at 0 in this release.
+- Fixed typos in the help, labels and Disclaimer ("DeltaT", "btuH", UK spellings); the Spanish NPV help now says VPN, like its label.
+
 ## v4.3 - 2026-09-24
 - You are now told when a newer version exists: when you open the tool, a message offers to install it (Yes downloads and installs it, No carries on). You are asked only once for each new version; Check for Updates on the About screen is always there.
 - Fixed: on a PC whose regional settings use a comma for decimals (for example Spanish, Portuguese or French), Check for Updates could keep offering the version you already had.

@@ -1,3 +1,6 @@
+## v4.6 - 2026-10-05
+- The Delta-T control on the Results tab is now a horizontal slider bar with an arrow at each end and a draggable handle. The old up and down arrows were too close together, so a click meant for the down arrow could hit the up arrow.
+
 ## v4.5 - 2026-10-05
 - Fixed: Demand Reduction at Peak Load on the Results tab was wrong in Metric units.
 - Annual operating hours can no longer exceed the schedule you enter (the climate multiplier is capped at 1.00), so results drop for South East, South, South West, West and Average US.

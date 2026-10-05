@@ -1,3 +1,11 @@
+## v4.5 - 2026-10-05
+- Fixed: Demand Reduction at Peak Load on the Results tab was wrong in Metric units.
+- Annual operating hours can no longer exceed the schedule you enter (the climate multiplier is capped at 1.00), so results drop for South East, South, South West, West and Average US.
+- Carbon dioxide, tree-seedling and homes equivalents use the current U.S. EPA factors, the same as the Savings Estimator.
+- The load-point shares can no longer add up to more than 100%, and custom cooling degree days must be 1 to 6,000.
+- Every tab now prints cleanly: Results, Pump Savings and Home on two landscape pages, and the Pump Savings PDF no longer includes the valve lookup table.
+- Spanish, Portuguese and French: labels, Pump Savings headers and the Step boxes on Home no longer run into values or icons, and the Results banner follows the language.
+
 ## v4.4 - 2026-09-29
 - Fixed: the Design Coil Load on the Home tab now drives the Pump Savings and Results tabs and the Energy Valve model choice. Before, it only changed the Flow Curves tab, so savings were always shown for a 310 GPM coil.
 - Fixed: the Delta-T slider on the Results tab could stop changing the savings (a Design Delta-T above 12 F left its upper clicks on the 14 F figures) or show #N/A (an Actual Delta-T of 4 F). It now stays within the six scenarios and follows the Delta-T inputs on the Home tab.
